@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFontTest", "WpfFontTest\WpfFontTest.csproj", "{1BCD9EBD-B9BD-4C27-98F2-E7169503C642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontResources", "FontResources\FontResources.csproj", "{7D260E92-6552-4F3A-A1E3-5BBF2A81CBA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BCD9EBD-B9BD-4C27-98F2-E7169503C642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCD9EBD-B9BD-4C27-98F2-E7169503C642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCD9EBD-B9BD-4C27-98F2-E7169503C642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCD9EBD-B9BD-4C27-98F2-E7169503C642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D260E92-6552-4F3A-A1E3-5BBF2A81CBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D260E92-6552-4F3A-A1E3-5BBF2A81CBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D260E92-6552-4F3A-A1E3-5BBF2A81CBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D260E92-6552-4F3A-A1E3-5BBF2A81CBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24F454EF-D681-46BA-99DA-AA06A6BEFACB}
+	EndGlobalSection
+EndGlobal

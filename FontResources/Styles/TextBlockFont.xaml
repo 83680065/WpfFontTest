@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <FontFamily x:Key="Font_思源黑体_CN_Bold">/FontResources;Component/Resources/#思源黑体 CN Bold</FontFamily>
+    <FontFamily x:Key="Font_思源黑体_CN">/FontResources;Component/Resources/#思源黑体 CN</FontFamily>
+    <FontFamily x:Key="Font_Icon">/FontResources;Component/Resources/#iconfont</FontFamily>
+
+    <Style TargetType="TextBlock"
+           x:Key="fontTextBlock">
+        <Setter Property="FontFamily"
+                Value="{StaticResource Font_思源黑体_CN}"></Setter>
+    </Style>
+    <Style TargetType="TextBlock"
+           x:Key="fontTextBlockBold">
+        <Setter Property="FontFamily"
+                Value="{StaticResource Font_思源黑体_CN_Bold}"></Setter>
+    </Style>
+    <Style TargetType="TextBlock"
+           x:Key="iconTextBlock">
+        <Setter Property="FontFamily"
+                Value="{StaticResource Font_Icon}"></Setter>
+    </Style>
+</ResourceDictionary>
